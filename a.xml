@@ -1,0 +1,12 @@
+<masterData>
+    <customer>
+        <individualCustomers>
+            <customerNumber>123030</customerNumber>
+            <salutation>Mr.</salutation>
+        </individualCustomers>
+        <individualCustomers>
+            <customerNumber>123030</customerNumber>
+            <salutation>Mr.</salutation>
+        </individualCustomers>
+    </customer>
+</masterData>

@@ -1,0 +1,21 @@
+group 'com.github'
+version '1.0-SNAPSHOT'
+
+apply plugin: 'java'
+
+repositories {
+    mavenCentral()
+}
+
+ext {
+    junit = '4.12'
+    jackson_dataformat_xml = '2.6.3'
+    woodstox_core_asl = '4.4.1'
+}
+
+dependencies {
+    compile "com.fasterxml.jackson.dataformat:jackson-dataformat-xml:$jackson_dataformat_xml"
+    compile "org.codehaus.woodstox:woodstox-core-asl:$woodstox_core_asl"
+
+    testCompile "junit:junit:$junit"
+}
